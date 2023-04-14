@@ -1,15 +1,14 @@
 import React from "react";
-import { TETROMINOS } from "@/utils/tetrominos";
+import { TETROMINOS } from "./tetrominos";
 
 const Cell = ({type}) => {
+    let color = TETROMINOS["Z"].color
+    let borderColor = TETROMINOS["Z"].border
+    /* let back = `bg-orange-300` */
 
-    let color = `#dfad24`
-    console.log(color);
-    let bg = `bg-[${color}]`
-    console.log(bg);
     
     return(
-        <div className={`bg-[${color}]`} >
+        <div className={color + `  border-2 ${borderColor}`}>
             cell
         </div>
     )
