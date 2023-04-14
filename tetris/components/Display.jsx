@@ -2,7 +2,7 @@ import React from 'react'
 
 const Display = ({gameOver, text}) => {
   return (
-    <div>{text}</div>
+    <div className='text-white text-4xl'>{text}</div>
   )
 }
 
