@@ -2,9 +2,8 @@ import React from "react";
 import { TETROMINOS } from "./tetrominos";
 
 const Cell = ({type}) => {
-    let color = TETROMINOS["O"].color
-    let borderColor = TETROMINOS["O"].border
-    /* let back = `bg-orange-300` */
+    let color = TETROMINOS[type].color
+    let borderColor = TETROMINOS[type].border
 
     
     return(
