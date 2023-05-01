@@ -3,11 +3,11 @@ import Stage from "./Stage";
 import Display from "./Display";
 import StartButton from "./StartButton";
 import styles from "../modulecss/Tetris.module.css";
-import { useInterval } from "@/utils/useInterval";
-import { usePlayer } from "@/utils/usePlayer";
-import { useStage } from "@/utils/useStage";
-import { useGameStatus } from "@/utils/useGameStatus";
-import { checkColission, createStage } from "@/utils/gameHelpers";
+import { useInterval } from "./useInterval";
+import { usePlayer } from "./usePlayer";
+import { useStage } from "./useStage";
+import { useGameStatus } from "./useGameStatus";
+import { checkColission, createStage } from "./gameHelpers";
 
 const Tetris = () => {
   const [dropTime, setDropTime] = useState(null);
