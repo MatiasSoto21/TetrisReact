@@ -27,7 +27,7 @@ export const useStage = (player, resetPlayer) => {
       );
 
       //then draw tetromino
-      /* player.tetromino.forEach((row, y) => {
+      player.tetromino.forEach((row, y) => {
         row.forEach((value, x) => {
           if (value !== 0) {
             newStage[y + player.pos.y][x + player.pos.x] = [
@@ -36,7 +36,7 @@ export const useStage = (player, resetPlayer) => {
             ];
           }
         });
-      }); */
+      });
       //CHECK COLISSION
       if (player.collided) {
         resetPlayer();

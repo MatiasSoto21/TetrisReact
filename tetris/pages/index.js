@@ -1,4 +1,4 @@
-import Tetris from "@/components/Tetris"
+import Tetris from "@/pages/components/Tetris"
 import React from "react"
 
 
