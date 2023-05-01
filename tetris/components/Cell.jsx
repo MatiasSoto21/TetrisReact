@@ -1,5 +1,5 @@
 import React from "react";
-import { TETROMINOS } from "./tetrominos";
+import { TETROMINOS } from "@/utils/tetrominos";
 
 const Cell = ({type}) => {
     let color = TETROMINOS[type].color
